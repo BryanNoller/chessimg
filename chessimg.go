@@ -7,9 +7,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/ajstarks/svgo"
-	"github.com/notnil/chess"
-	"github.com/notnil/chessimg/internal"
+	svg "github.com/ajstarks/svgo"
+	"github.com/bryannoller/chess"
+	"github.com/bryannoller/chessimg/internal"
 )
 
 // SVG writes the board SVG representation into the writer.
